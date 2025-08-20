@@ -1,0 +1,224 @@
+/* Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1a0033, #1f2d7a, #30004d);
+  color: white;
+}
+
+/* Container */
+.login-container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Left Side */
+.login-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+
+.illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+/* Right Side */
+.login-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-form label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.login-form input {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Keep white border and text on focus */
+.login-form input:focus {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+
+/* Password field */
+ .password-field {
+  position: relative;
+}
+
+.password-field input {
+  padding-right: 45px;
+} 
+
+/* .toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 34%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+} */
+
+ .toggle-password {
+   position: absolute;
+  right: 3px;
+  top: 35%;
+  transform: translateY(-50%);
+  background: linear-gradient(to right, #ff0080, #3734d3);
+  border: none;
+  color: white;
+  font-size: 19px;
+  cursor: pointer;
+  padding: 6px;
+
+
+ 
+  width: 45px;
+  height: 40px;
+  border-radius: 0 6px 6px 0;
+
+} 
+
+
+/* Forgot password */
+.forgot-password {
+  color: #ccc;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+/* Gradient Button */
+.login-button {
+  padding: 12px;
+  border: none;
+  background: linear-gradient(to right, #ff0080, #3734d3);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.login-button:hover {
+  opacity: 0.9;
+}
+
+/* Register link */
+.register-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+.register-link a {
+  color: white;
+  text-decoration: underline;
+}
+
+
+/* @media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+  }
+
+  .login-left, .login-right {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .login-form {
+    max-width: 100%;
+  }
+
+  .illustration {
+    max-width: 100%;
+  }
+} */
+
+
+.login-right h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  margin-top: 20px; /* Moves "Log in" a little down */
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+    padding: 10px; /* Reduce left-right padding on small screens */
+  }
+
+  .login-left, .login-right {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px; /* Reduced padding */
+  }
+
+  .illustration {
+    max-width: 90%; /* Avoid edge-to-edge stretching */
+    margin: 0 auto; /* Center image */
+  }
+
+  .login-form {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .login-right h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .login-button {
+    width: 100%;
+  }
+}
