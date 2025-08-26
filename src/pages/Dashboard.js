@@ -96,10 +96,10 @@ useEffect(() => {
               <span className="nav_logo-name">Digital Loyalty</span>
             </a>
              <div className="nav_list">
-            <a href="#" className="nav_link active">
+            <a href="adminDashboard" className="nav_link active">
               
                  <i className="bx bx-grid-alt nav_icon"></i>
-                <span className="nav_name">Dashboard</span>
+                <span className="nav_name">Admin Dashboard</span>
               </a>
               <a href="#" className="nav_link">
                 <FaUser className="nav_icon" />
@@ -124,9 +124,9 @@ useEffect(() => {
             </div>
           </div>
 
-          <a href="#" className="nav_link">
+          <a href="Login" className="nav_link">
             <i className="bx bx-log-out nav_icon"></i>
-            <span className="nav_name">Sign Out</span>
+            <span className="nav_name">Log In</span>
           </a>
         </nav>
       </div>

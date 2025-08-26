@@ -164,7 +164,7 @@ const AdminDashboard = () => {
             </a>
 
             <div className="nav_list">
-              <a href="#" className="nav_link active">
+              <a href="dashboard" className="nav_link active">
                 <i className="bx bx-grid-alt nav_icon"></i>
                 <span className="nav_name">Dashboard</span>
               </a>
@@ -191,9 +191,9 @@ const AdminDashboard = () => {
             </div>
           </div>
 
-          <a href="#" className="nav_link">
+          <a href="Login" className="nav_link">
             <i className="bx bx-log-out nav_icon"></i>
-            <span className="nav_name">Sign Out</span>
+            <span className="nav_name">Log In</span>
           </a>
         </nav>
       </div>
