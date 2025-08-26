@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ReactDigitalLoyalty-/static/css/main.4628ef6a.css",
+    "main.js": "/ReactDigitalLoyalty-/static/js/main.94c913e6.js",
+    "static/js/453.dff87da4.chunk.js": "/ReactDigitalLoyalty-/static/js/453.dff87da4.chunk.js",
+    "static/media/boxicons.svg": "/ReactDigitalLoyalty-/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/boxicons.eot": "/ReactDigitalLoyalty-/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/illustration.png": "/ReactDigitalLoyalty-/static/media/illustration.3beb233bcaadf58866f8.png",
+    "static/media/boxicons.woff": "/ReactDigitalLoyalty-/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/ReactDigitalLoyalty-/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/boxicons.woff2": "/ReactDigitalLoyalty-/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "static/media/fa-solid-900.woff2": "/ReactDigitalLoyalty-/static/media/fa-solid-900.f54756da1f3d1b88887f.woff2",
+    "static/media/fa-brands-400.woff2": "/ReactDigitalLoyalty-/static/media/fa-brands-400.1f6bad931d92a0a52c45.woff2",
+    "static/media/logo-icon.png": "/ReactDigitalLoyalty-/static/media/logo-icon.fa619ef0a90694c5ea2b.png",
+    "static/media/fa-regular-400.woff2": "/ReactDigitalLoyalty-/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
+    "static/media/fa-v4compatibility.woff2": "/ReactDigitalLoyalty-/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
+    "index.html": "/ReactDigitalLoyalty-/index.html",
+    "main.4628ef6a.css.map": "/ReactDigitalLoyalty-/static/css/main.4628ef6a.css.map",
+    "main.94c913e6.js.map": "/ReactDigitalLoyalty-/static/js/main.94c913e6.js.map",
+    "453.dff87da4.chunk.js.map": "/ReactDigitalLoyalty-/static/js/453.dff87da4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4628ef6a.css",
+    "static/js/main.94c913e6.js"
+  ]
+}
